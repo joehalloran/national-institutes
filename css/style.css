@@ -1,0 +1,122 @@
+a {
+	color: #ce1126;
+}
+
+.navbar.navbar-default {
+	border-bottom: 4px solid #ce1126;
+}
+
+.navbar-default .navbar-header>.active, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #ce1126;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-header>.navbar-brand {
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #ce1126;
+	color: white;
+		}
+
+header {
+	margin-top: -20px;
+	padding-top: 120px;
+	padding-bottom: 20px;
+	margin: -20px -15px 40px -15px;
+	background: url(../img/header2.jpg) no-repeat 30% 80%;
+	height: 400px;
+	position: relative;
+	border-bottom: 4px solid #ce1126;
+}
+
+header .logos {
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	background-color: #fff;
+	padding: 20px;
+	top: 0;
+	right: 0;
+	border-left: 4px solid #ce1126;
+	text-align: center;
+}
+
+header .logos .logo, header .logos .egypt-flag {
+	width: 150px;
+	height: auto;
+	margin: 40px 0;
+} 
+
+header h1 {
+	font-size: 60px;
+}
+
+header h1, header h4 {
+	color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+
+.main {
+	padding-right: 40px;
+}
+section {
+	border-top: 6px solid #000;
+	margin: 40px 0;
+	padding: 5px 0 20px 0;
+}
+
+section h2 {
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+section a.more {
+	float: right;
+	margin-top: 17px;
+	text-transform: uppercase;
+}
+
+section > img {
+	width: 50%;
+}
+
+/*section > h3 {
+	background-color: #ce1126;
+	color: white;
+	padding: 10px;
+	width: calc(33.333% - 20px);
+}*/
+
+.more-materials h3 {
+    font-size: 21px;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #eee;
+    margin-bottom: 30px;
+}
+
+.sidebar {
+	border-left: 2px solid #eee;
+	padding-left: 40px;
+}
+
+.sidebar .input-group {
+	margin-bottom: 20px;	
+}
+
+footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #eee;
+}
+
+footer #egypt-flag {
+	width: 120px;
+	height: auto;
+}
