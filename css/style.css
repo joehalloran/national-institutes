@@ -53,6 +53,7 @@ a {
 header {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	position: relative;
 	/*margin-bottom: 40px;*/
 
 }
@@ -62,6 +63,15 @@ header .logo {
 	width: auto;
 	height: 95px;
 	margin: 20px 10px 0 0;
+} 
+
+header .flag {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+
 } 
 
 header h1 {
