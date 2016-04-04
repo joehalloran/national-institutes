@@ -1,9 +1,14 @@
 body {
 	color: #4d4d4d;
+	font-family: 'Arimo', "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 a {
 	color: #ce1126;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
 }
 
 #primary-navbar.navbar.navbar-default {
