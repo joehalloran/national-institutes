@@ -72,10 +72,19 @@ header .logo {
 
 header .flag {
 	width: auto;
-	height: 40px;
+	height: 50px;
 	position: absolute;
 	top: 30px;
 	right: 0;
+
+} 
+
+header .wezara-logo {
+	width: auto;
+	height: 50px;
+	position: absolute;
+	top: 30px;
+	right: 80px;
 
 } 
 
