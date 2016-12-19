@@ -99,6 +99,7 @@ header h1 {
 
 .main figure img {
 	width: 75%;
+	margin-bottom: 20px;
 	
 }
 
@@ -106,6 +107,10 @@ header h1 {
 	width: 25%;
 	float: right;
 	padding-left: 20px;
+}
+
+.main section:first-child {
+	margin-top: 0;
 }
 
 section {
@@ -132,7 +137,20 @@ section a.more {
 	text-transform: uppercase;
 }
 
+.teacher-material-library-item {
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+}
 
+.teacher-material-library-item h3{
+	text-transform: uppercase;
+}
+
+.teacher-material-library-item a.view-item {
+    margin-top: 17px;
+    text-transform: uppercase;
+}
 
 /*section > h3 {
 	background-color: #ce1126;
